@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/app-icon.png">
+    <title>SandBox</title>
+</head>
+<body class="grid-container">
+    <nav class="navbar">
+        <h1 class="title-app">SandBox</h1>
+        <div class="btn-op">
+            <button type="button" onclick="downloadFileJs()">Download</button>
+        </div>
+    </nav>
+    
+    <section class="code-content code-container">
+        <h3 class="title-section">Code JavaScript</h3>
+        <div class="editor-container">
+            <div id="lineNumbers" class="line-numbers"></div>
+            <textarea id="codeJs" class="code-editor" spellcheck="false">
+            </textarea>
+        </div>
+    </section>
+
+    <section class="code-content console-container">
+        <h3 class="title-section">Console</h3>
+        <div class="console" id="result"></div>
+    </section>
+
+    <a href="https://github.com/MiguelPaez782/SandBox" target="_blank" class="developer">By Miguel Páez</a>
+
+    <script src="js/app.js"></script>
+    <script src="js/download-code.js"></script>
+</body>
+</html>

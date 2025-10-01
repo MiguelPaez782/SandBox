@@ -1,0 +1,38 @@
+{
+  "name": "sandbox-app",
+  "version": "1.0.0",
+  "description": "Sandbox en tiempo real para probar HTML, CSS y JavaScript con consola integrada.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --windows nsis"
+  },
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.tuempresa.sandbox",
+    "productName": "SandBox",
+    "files": [
+      "app/**/*",
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "include": "build/installer.nsh"
+    },
+    "win": {
+      "icon": "app/img/app-logo.ico"
+    }
+  }
+}
