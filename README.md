@@ -77,12 +77,12 @@ Esto generará los archivos en la carpeta `dist/`.
 
 2. **Demo - Ejecutar código**
   
-   ![Ejecuta código JavaScript](screenshots/demo-sandbox-coding.gif)
+   ![Ejecuta código JavaScript](screenshots/sandbox-coding.gif)
 
 
 3. **Descarga del codigo .js**
  
-   ![Descargar archivo .js](screenshots/demo-sandbox-dowload-code.gif)
+   ![Descargar archivo .js](screenshots/sandbox-download-code.gif)
 
 ---
 
