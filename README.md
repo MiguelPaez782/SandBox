@@ -82,7 +82,7 @@ Esto generará los archivos en la carpeta `dist/`.
 
 3. **Descarga del codigo .js**
  
-   ![Descargar archivo .js](screenshots/demo-sandbox-download-code.gif)
+   ![Descargar archivo .js](screenshots/demo-sandbox-dowload-code.gif)
 
 ---
 
