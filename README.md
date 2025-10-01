@@ -69,7 +69,20 @@ Esto generará los archivos en la carpeta `dist/`.
 ---
 
 ## 📸 Capturas
-![Logo](img/app-logo.png)
+
+1. **Vista principal**
+  
+   ![Vista principal](screenshots/home.png)
+ 
+
+2. **Demo - Ejecutar código**
+  
+   ![Ejecuta código JavaScript](screenshots/demo-sandbox-coding.gif)
+
+
+3. **Descarga del codigo .js**
+ 
+   ![Descargar archivo .js](screenshots/demo-sandbox-download-code.gif)
 
 ---
 
