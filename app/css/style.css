@@ -40,6 +40,12 @@ html {
     align-items: center;
 }
 
+.navbar .btn-op {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .navbar .btn-op button {
     padding: .5rem .8rem;
     font-size: .9rem;

@@ -1,6 +1,6 @@
 {
   "name": "sandbox-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sandbox en tiempo real para probar HTML, CSS y JavaScript con consola integrada.",
   "main": "main.js",
   "scripts": {
