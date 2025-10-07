@@ -14,9 +14,6 @@ function createWindow() {
   });
 
   win.loadFile(path.join(__dirname, 'app', 'index.html'));
-
-  // Abre DevTools solo en desarrollo
-  // win.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);

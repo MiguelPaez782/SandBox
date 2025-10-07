@@ -7,6 +7,7 @@ package-lock.json
 
 # Electron build
 dist/
+dist1.1.1/
 build/
 *.exe
 *.msi
